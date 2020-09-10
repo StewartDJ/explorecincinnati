@@ -77,7 +77,7 @@ export default class Navbar extends Component {
                                 </UncontrolledDropdown>
                                             </ul>
             </div>
-                <form className="form-inline" method="get" action="https://google.com/search" method="get" autocomplete="on">
+                <form className="form-inline" method="get" action="https://google.com/search"  autocomplete="on">
                 <input list="places" className="form-control mr-sm-2" type="text" placeholder="Search Google" aria-label="Search Google" id="searchName" name="q"/> 
 <datalist id="places">
 <option value="Hotels in Cincinnati"/>
