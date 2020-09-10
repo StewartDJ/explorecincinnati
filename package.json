@@ -1,6 +1,9 @@
 {
   "name": "backend",
   "version": "1.0.0",
+  "engines": {
+    "node": "12.18.3"
+  },
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -25,6 +28,7 @@
     "cors": "^2.8.5",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
+    "heroku": "^7.42.13",
     "mongodb": "^3.6.0",
     "mongoose": "^5.10.2",
     "morgan": "^1.10.0",
